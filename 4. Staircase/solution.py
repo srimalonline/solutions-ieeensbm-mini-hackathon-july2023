@@ -14,8 +14,8 @@ import sys
 
 def staircase(n):
     # Solution Code
-    for i in range(n-1, -1, -1):
-        print((" "*i)+("#"*(n-i)))
+    for i in range(1, n+1):
+        print((" "*(n-i))+("#"*i))
     # Solution Code
 
 if __name__ == '__main__':
