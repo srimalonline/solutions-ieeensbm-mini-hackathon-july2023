@@ -1,5 +1,6 @@
 s = input()
 
+# Solution code
 count = 0
 user_inputs = [int(s[i]) for i in range(len(s))]
 cfi = 0 # Continue From Index
@@ -14,3 +15,4 @@ while number!=user_inputs[cfi]:
         count += 1 
     print((count, number), end=" ")
     count=0
+# Solution code
