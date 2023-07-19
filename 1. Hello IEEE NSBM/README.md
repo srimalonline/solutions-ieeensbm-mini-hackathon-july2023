@@ -12,7 +12,7 @@ The line should contain a string.
 
 ### Input Constraints
 
-`1 ≤ name ≤ 100`
+`1 ≤ name.length ≤ 100`
 
 ### Output Format
 
@@ -35,6 +35,8 @@ Hello I'm John from IEEE NSBM!
 As the question states, we are required to get an input(User's Name) to the program and display a greeting text saying `Hello I'm {Name taken through input} from IEEE NSBM!`
 
 For example, In the sample input `John` is given as the input, so then the output should display as `Hello I'm John from IEEE NSBM!`.
+
+### Steps:
 
 1. First, we should take an input to the code:
 ```python
